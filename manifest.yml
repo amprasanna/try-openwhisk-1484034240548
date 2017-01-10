@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: try-openwhisk
+  host: try-openwhisk
+  disk_quota: 1024M
+  services:
+  - try-openwhisk-cloudantNoSQLDB
+  - try-openwhisk-iotf-service
